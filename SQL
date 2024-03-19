@@ -1,9 +1,25 @@
 Refreshing on SQL using the Data Analyst Bootcamp by Alex the Analyst on Youtube
 
-Refreshed on basic SQL statements
+--- Basic SQL ---
   SELECT statement: Top, Distinct, Count, As, Max, Min, Avg
   FROM statement: tell SQL which table to pull the data from
   WHERE statement: =, <>, <, >, <=, >=, And, Or, Like, Null, Not Null, In
     you can use the wildcard '%' when using Like
   GROUP BY statement
   ORDER BY statement
+
+--- Intermediate SQL ---
+  Inner join 2 tables = everything in common between both tables
+    SELECT *
+    FROM table1
+    Inner Join table2
+    ON table1.id = table2.id
+
+  Full Outer Join = show everything from both tables regardless whether there is a match
+
+  Left Outer Join = take everything from the first table and everything that matches with it from the second table but if anything is only in the second table, it is not included
+
+  Righter Outer Join = take everything from the second table and everything that matches with it from the first table but if anything is only in the first table, it is not included
+
+
+
