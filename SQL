@@ -21,5 +21,20 @@ Refreshing on SQL using the Data Analyst Bootcamp by Alex the Analyst on Youtube
 
   Righter Outer Join = take everything from the second table and everything that matches with it from the first table but if anything is only in the first table, it is not included
 
+  Union "stacks" two tables while taking out any duplicates, you need the data to be the same for it to work
+    SELECT *
+    FROM table1
+    UNION
+    SELECT *
+    FROM table2
 
+  Union all shows all the results and doesn't remove any duplicates
+
+  CASE statement: is an if else statement
+    SELECT *
+    CASE
+      WHEN variable " " THEN " "
+      ELSE " "
+    END AS " "
+    FROM table
 
