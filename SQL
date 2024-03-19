@@ -1,0 +1,9 @@
+Refreshing on SQL using the Data Analyst Bootcamp by Alex the Analyst on Youtube
+
+Refreshed on basic SQL statements
+  SELECT statement: Top, Distinct, Count, As, Max, Min, Avg
+  FROM statement: tell SQL which table to pull the data from
+  WHERE statement: =, <>, <, >, <=, >=, And, Or, Like, Null, Not Null, In
+    you can use the wildcard '%' when using Like
+  GROUP BY statement
+  ORDER BY statement
