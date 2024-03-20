@@ -38,3 +38,8 @@ Refreshing on SQL using the Data Analyst Bootcamp by Alex the Analyst on Youtube
     END AS " "
     FROM table
 
+  HAVING clause: used when WHERE can't be used with aggregate functions
+    SELECT COUNT(jobTitle)
+    FROM table1
+    GROUP BY jobTitle
+    HAVING COUNT(jobTitle) > 1
