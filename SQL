@@ -43,3 +43,24 @@ Refreshing on SQL using the Data Analyst Bootcamp by Alex the Analyst on Youtube
     FROM table1
     GROUP BY jobTitle
     HAVING COUNT(jobTitle) > 1
+
+  UPDATE: updates value in your table
+    UPDATE table1  
+    SET " "
+    WHERE " "
+
+  DELETE: removes entire row from your table
+    DELETE FROM table1
+    WHERE " "
+
+  Aliasing: temporarily changes column name in your table
+    SELECT columnName as Name
+    FROM table1
+
+    SELECT columnA + " " + columnB AS columnC
+    FROM table1
+
+  Partition by: isolates one specific column you want to aggregate
+    SELECT FirstName, LastName, Gender, Salary, 
+      COUNT(Gender) OVER (PARTITION BY Gender) as TotalGender
+    
