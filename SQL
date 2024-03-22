@@ -64,3 +64,35 @@ Refreshing on SQL using the Data Analyst Bootcamp by Alex the Analyst on Youtube
     SELECT FirstName, LastName, Gender, Salary, 
       COUNT(Gender) OVER (PARTITION BY Gender) as TotalGender
     
+--- Advanced SQL ---
+
+  CTEs: work like sub queries, it is temporary
+    WITH CTE_Employee as (SELECT FirstName, LastName, Gender, Salary,
+        COUNT(GENDER) over (partition BY Gender) as TotalGender,
+        Avg(Salary) OVER (PARTITION BY Gender) as AvgSalary
+    FROM table1
+    WHERE Salary > '45000)
+  
+  Now you can select everything from that CTE with the below. The select statement needs to be right below the CTE for it to work
+    SELECT *
+    FROM CTE_Employee
+
+  Temp Tables: created like a usual table but now you use a #
+    CREATE TABLE #temp_Employee (
+    EmployeeID int,
+    jobTitle varchar(100),
+    Salary int
+    )
+
+    SELECT *
+    FROM #temp_Employee
+
+    Enter an existing table into your temp table:
+    INSERT INTO #temp_Employee 
+    SELECT *
+    FROM table1
+    )
+
+    To delete the table and create it again, you use the below query
+    DROP TABLE IF EXISTS #Temp_Employee
+  
