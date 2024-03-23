@@ -2,10 +2,20 @@ Refreshing on SQL using the Data Analyst Bootcamp by Alex the Analyst on Youtube
 
 ### Basic SQL 
   SELECT statement: Top, Distinct, Count, As, Max, Min, Avg
+  &nbsp;
+  
   FROM statement: tell SQL which table to pull the data from
+  &nbsp;
+  
   WHERE statement: =, <>, <, >, <=, >=, And, Or, Like, Null, Not Null, In
-    you can use the wildcard '%' when using Like
+  &nbsp;
+  
+  you can use the wildcard '%' when using Like
+    &nbsp;
+    
   GROUP BY statement
+  &nbsp;
+  
   ORDER BY statement
 
 ### Intermediate SQL
