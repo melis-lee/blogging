@@ -1,6 +1,6 @@
 Refreshing on SQL using the Data Analyst Bootcamp by Alex the Analyst on Youtube
 
---- Basic SQL ---
+### Basic SQL 
   SELECT statement: Top, Distinct, Count, As, Max, Min, Avg
   FROM statement: tell SQL which table to pull the data from
   WHERE statement: =, <>, <, >, <=, >=, And, Or, Like, Null, Not Null, In
@@ -8,7 +8,7 @@ Refreshing on SQL using the Data Analyst Bootcamp by Alex the Analyst on Youtube
   GROUP BY statement
   ORDER BY statement
 
---- Intermediate SQL ---
+### Intermediate SQL
   Inner join 2 tables = everything in common between both tables
     SELECT *
     FROM table1
@@ -64,7 +64,7 @@ Refreshing on SQL using the Data Analyst Bootcamp by Alex the Analyst on Youtube
     SELECT FirstName, LastName, Gender, Salary, 
       COUNT(Gender) OVER (PARTITION BY Gender) as TotalGender
     
---- Advanced SQL ---
+### Advanced SQL 
 
   CTEs: work like sub queries, it is temporary
     WITH CTE_Employee as (SELECT FirstName, LastName, Gender, Salary,
@@ -95,4 +95,26 @@ Refreshing on SQL using the Data Analyst Bootcamp by Alex the Analyst on Youtube
 
     To delete the table and create it again, you use the below query
     DROP TABLE IF EXISTS #Temp_Employee
+
+  String Functions
+    SELECT TRIM(columnName) 
+    is used to trim the values
+    SELECT LTRIM(columnName)
+    gets rid of blank spaces on the left side
+    SELECT RTRIM(columnName)
+    gets rid of blank spaces on the right side
+
+    SELECT REPLACE(columnName, 'whatyouwantreplaced', 'whatyouwanttoreplaceitwith')
+    is used to replace values with something else in the table
+
+    SELECT SUBSTRING(columnName, 1, 3)
+    this takes parts of columnName starting at the first character and then will have a length of 3
+    you can use this when joining two tables when you want to do a "fuzzy match" if the two tables don't have something like an id column for exact matches
+
+    SELECT LOWER(columnName)
+    is used to change every character to lower case
+
+    SELECT UPPER(columnName)
+    is used to change every character to upper case
+      
   
