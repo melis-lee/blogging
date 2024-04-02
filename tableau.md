@@ -34,3 +34,6 @@ It works a bit like Excel and you can use all kind of calculations like addition
 ![calcfieldtableau4](/img/calcfieldtableau4.JPG)
 ![calcfieldtableau5](/img/calcfieldtableau5.JPG)
 
+### Maps
+You can create maps in Tableau. When you import data with locations, Tableau automatically adds longitude and latitude as values in your dataset.
+![maptableau](/img/maptableau.JPG)
