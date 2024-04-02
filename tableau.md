@@ -42,5 +42,5 @@ You can create maps in Tableau. When you import data with locations, Tableau aut
 First you drag your first table to the sheet. THen when you open it, you can join other tables.
 ![joinstableau](/img/joinstableau.jpg)
 
-You will be able to tell it what kind of join you want to do.
+You will be able to tell it what kind of join you want to do. Now you can make visualizations with your joined table.
 ![joinstableau2](/img/joinstableau2.JPG)
