@@ -37,3 +37,10 @@ It works a bit like Excel and you can use all kind of calculations like addition
 ### Maps
 You can create maps in Tableau. When you import data with locations, Tableau automatically adds longitude and latitude as values in your dataset.
 ![maptableau](/img/maptableau.JPG)
+
+### Joins in Tableau
+First you drag your first table to the sheet. THen when you open it, you can join other tables.
+![joinstableau](/img/joinstableau.jpg)
+
+You will be able to tell it what kind of join you want to do.
+![joinstableau2](/img/joinstableau2.JPG)
