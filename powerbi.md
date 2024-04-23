@@ -13,3 +13,23 @@ You can create relationships between different tables in Power BI. You can do th
 
 If you want to make edits to the relationship, you can do this by clicking on the line.
 ![powerbi4](/img/powerbi4.JPG)
+
+### Using DAX (Data Analysis Expressions) in Power BI
+Can be used to create measures or calculated columns in Power BI
+
+To create a measure, you go to your data on the right of your screen and click on the three dots.
+![powerbi5](/img/powerbi5.jpg)
+
+When you click on the three dots, you can click on the option New Measure.
+![powerbi6](/img/powerbi6.jpg)
+
+Now you can create your new measure. You can create a formula like you could in Excel.
+![powerbi7](/img/powerbi7.JPG)
+
+SUMX is a function in Power BI that allows you to do calculations by row instead of summing up the whole column like the SUM function would do.
+
+```
+CALCULATION = SUMX(table, equation) 
+```
+
+
