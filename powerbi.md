@@ -32,4 +32,11 @@ SUMX is a function in Power BI that allows you to do calculations by row instead
 CALCULATION = SUMX(table, equation) 
 ```
 
+### Using Drill Down in Power BI
+In Power BI, you can create hierarchies and display that in your chart.
 
+In this example, we have store and product on the x-axis and total price on the y-axis. In the first level of the hierarchy, we show the total price by store. However, we can look at the second level if we want which would be the total price by product by store. You can do this by using the drill down function by clicking on the downward facing arrow.
+![powerbi8](/img/powerbi8.JPG)
+
+When you click on that, you can click on any of the bars in the chart and it would then drill down to the next level.
+![powerbi9](/img/powerbi9.JPG)
