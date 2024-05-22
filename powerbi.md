@@ -40,3 +40,18 @@ In this example, we have store and product on the x-axis and total price on the 
 
 When you click on that, you can click on any of the bars in the chart and it would then drill down to the next level.
 ![powerbi9](/img/powerbi9.JPG)
+
+### Conditional Formatting
+You can use conditional formatting in Power BI of values under columns.
+
+To do so, right click on the column name and then click on conditional formatting. You will see a few different options.
+![powerbi10](/img/powerbi10.JPG)
+
+One example for conditional formatting would be background color. It is pretty intuitive on how to use it and there are multiple things to customize.
+![powerbi11](/img/powerbi11.JPG)
+
+If you have a column that has summarized values, you will see that there is an additional option for conditional formatting called data bars.
+![powerbi12](/img/powerbi12.JPG)
+
+There are multiple ways to customize here as well.
+![powerbi13](/img/powerbi13.JPG)
